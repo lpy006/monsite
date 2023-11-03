@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style_contact.css">
+    <title>Contact</title>
+</head>
+<body>
+    <header>
+        <h1>Contactez-nous</h1>
+        <nav>
+            <ul>
+                <li><a href="Main page.html">Accueil</a></li>
+                <li><a href="page Contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Formulaire de contact</h2>
+
+        <form action="traitement.php" method="post">
+            <label for="nom">Nom :</label>
+            <input type="text" id="nom" name="nom" required><br>
+
+            <label for="email">E-mail :</label>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" rows="4" required></textarea><br>
+
+            <input type="submit" value="Envoyer">
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Mon Blog d'Images</p>
+    </footer>
+</body>
+</html>
